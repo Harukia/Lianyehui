@@ -97,6 +97,10 @@ name: "shopcar",
 
     Shopcar(){
       return this.$store.getters.shopCart
+    },
+
+    Userinfo(){
+      return this.$store.getters.userInfo
     }
   }
 }
